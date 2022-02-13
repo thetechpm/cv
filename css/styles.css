@@ -3,9 +3,16 @@ body{
     text-align: center;
     margin: 0;
 }
+.nav-bar {
+    background-color: #3FC1C9;
+    position: block;
+    height: 100px;
+    text-align: right;
+    padding: 10px;
+}
 .top-container {
     background-color: #3FC1C9;
-    padding-top: 100px;
+    padding-top: 50px;
     position: relative;
 }
 .middle-container {
@@ -52,18 +59,23 @@ p{
     width: 75%;
     margin: auto;
 }
-.footer-link{
+.nav-link{
     font-family: 'Karla', sans-serif;
     color:#F5F5F5;
     cursor: pointer;
     font-weight: bold;
     text-decoration: none;
     font-size: 1.2rem;
-    padding: 30px 20px;
+    padding: 5px 25px;
+    position: relative;
+    top: 5px;
 }
-.footer-link:hover, .footer-link:active{
-    font-size: 1.25rem;
+.nav-link:hover, .footer-link:active{
+    top: 0px;
     font-weight: bolder;
+}
+.footer-image{
+    height: 45px;
 }
 .copyright{
     font-family: 'Karla', sans-serif;
@@ -82,7 +94,7 @@ hr {
 .top-cloud{
     position: absolute;
     right: 300px;
-    top: 40px;
+    top: 20px;
 }
 .bottom-cloud{
     position: absolute;
