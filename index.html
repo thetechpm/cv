@@ -3,76 +3,67 @@
     <head>
         <meta charset="utf-8">
         <title>Jenny Hunter - The Tech PM</title>
+
+        <!-- Link the stylesheet -->
+        <link rel="stylesheet" type="text/css" href="./css/styles.css">
+
+        <!-- Add the favicon -->
+        <link rel="icon" href="media/favicon.ico">
+
+        <!-- Embed fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&family=Karla:wght@300;400;600&family=Special+Elite&display=swap" rel="stylesheet">
     </head>
     <body>
-        <table cellspacing="20">
-            <tr>
-                <td><img src="media/profile-pic.jpg" alt="Jenny Hunter profile picture" width="200"></td>
-                <td>
-                    <h1>Jenny Hunter</h1>
-                    <h2>Senior Product Manager, Azure Control Plane</h2>
-                        <a href="https://www.linkedin.com/in/thetechpm/">LinkedIn</a>
-                        <br>
-                        <a href="mailto:jenny@thetechpm.com" target="_blank">Email me</a>
-                        <br>
-                        <a href="contact.html">Contact Me</a></td>
-            </tr>
-        </table>
-            <p>Growing up, I always found myself leading group projects and being the connector between friend groups. As a program manager for Microsoft, I professionalize those skills by connecting with our UX designers, software developers, and customers to build a world-class control plane for the Azure cloud platform and by representing my products at conferences around the world.</p>
-            <p>I am a highly creative, results-oriented technology professional, who believes in the value of leadership within the engineering industry. In my own time, I work to encourage women and minorities to stay within the engineering discipline through my efforts previously with the Intel sponsored Stay With It Squad and as Chair of the IEEE Seattle Section Women in Engineering (WIE) chapter and through my position as a lead in the Squad that supports early-in-career employees with Microsoft's Azure Core organization.</p>
+        <div class="top-container">
+            <img class ="top-cloud" src="media/cloud.png" alt="cloud image">
+            <h1>I'm Jenny Hunter</h1>
+            <p class="subtitle">a senior product manager</p>
+            <p class="subtitle">a CTO and co-founder</p>
+            <p class="subtitle">a woman in STEM</p>
+            <img class="bottom-cloud" src="media/cloud.png" alt="cloud image">
+            <img class = "mountain" src="media/mountain.png" alt="mountain image">
+        </div>
+        <div class="middle-container">
+            <div class="profile">
+              <img class="profilepic" src="media/profile-pic.jpg" alt="Jenny Hunter profile picture">
+              <h2>Hello</h2>
+              <p class="intro">Growing up, I always found myself leading group projects and being the connector between friend groups. As a program manager for Microsoft, I professionalize those skills by connecting with our UX designers, software developers, and customers to build a world-class control plane for the Azure cloud platform and by representing my products at conferences around the world.
+                <br><br>I am a highly creative, results-oriented technology professional, who believes in the value of leadership within the engineering industry. In my own time, I work to encourage women and minorities to stay within the engineering discipline through my efforts previously with the Intel sponsored Stay With It Squad and as Chair of the IEEE Seattle Section Women in Engineering (WIE) chapter and through my position as a lead in the Squad that supports early-in-career employees with Microsoft's Azure Core organization.</p>
+            </div>
+            <br>
             <hr>
-            <h3>Education</h3>
-                <strong>Georgia Institute of Technology</strong>
-                <br>
-                <em>Bachelor's of Science in Computer Engineering</em>
-                <br>
-                <em>2012 - 2016</em>
-                <hr>
-            <h3>Experience</h3>
-                <table cellspacing="10">
-                    <thead>
-                        <tr>
-                            <th>Date</th>
-                            <th>Work</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>2016 - present</td>
-                            <td><strong>Microsoft</strong>, Senior Product Manager</td>
-                        </tr>
-                        <tr>
-                            <td>2015</td>
-                            <td><strong>Viasatt</strong>, Network Engineering Intern</td>
-                        </tr>
-                    </tbody>
-            </table>
+            <div class="skills">
+              <h2>My Skills</h2>
+              <div class="skill-row-code">
+                <img class="skill-code-img" src="media/server.png" alt="programming skills">
+                <h3>Progamming</h3>
+                <p>PowerShell, Kusto, JavaScript, Web development</p>
+              </div>
+              <br>
+              <div class="skill-row-other">
+                <img class="skill-other-img" src="media/user.png" alt="other skills">
+                <h3>Other</h3>
+                <p>Azure, Team management, Product roadmap development, External product  advocacy, Public speaking, User experience design, Moneyball, Technical proposals</p>
+              </div>
+            </div>
+            <br>
             <hr>
-            <h3>Skills</h3>
-            <table>
-                <tbody>
-                    <tr>
-                        <td><table cellspacing="10">
-                            <tr>
-                                <td>Product Management</td>
-                                <td>&#127775; &#127775; &#127775; &#127775; &#11088;</td>    
-                            </tr><tr>
-                                <td>Product Lifecycle Development</td>
-                                <td>&#127775; &#127775; &#127775; &#127775; &#11088;</td>
-                            </tr>
-                        </table></td>
-                        <td><table cellspacing="10">
-                            <tr>
-                                <td>PowerShell</td>
-                                <td>&#127775; &#127775; &#127775; &#11088; &#11088;</td>
-                                
-                            </tr><tr>
-                                <td>JavaScript</td>
-                                <td>&#127775; &#11088; &#11088; &#11088; &#11088;</td>
-                            </tr>
-                        </table></td>
-                    </tr>
-                </tbody>
-        </table>
+            <div class="contact-me">
+              <h2>Get In Touch</h2>
+              <h3>Have questions for me about my experience or work areas?</h3>
+              <a class="btn" href="mailto:jenny@thetechpm.com">Contact Me</a>
+            </div>
+          </div>
+          <div class="bottom-container">
+            <a class="footer-link" href="https://www.linkedin.com/in/thetechpm/">LinkedIn</a>
+            <a class="footer-link" href="https://twitter.com/thetechpm">Twitter</a>
+            <a class="footer-link" href="https://www.researchlead.com/">Research Lead</a>
+            <p class="copyright">© Jenny Hunter.</p>
+          </div>          
     </body>
 </html>
