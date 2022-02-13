@@ -5,10 +5,12 @@ body{
 }
 .nav-bar {
     background-color: #3FC1C9;
-    position: block;
-    height: 100px;
+    position: fixed;
+    height: 40px;
+    width: 100%;
     text-align: right;
     padding: 10px;
+    overflow: hidden;
 }
 .top-container {
     background-color: #3FC1C9;
