@@ -1,3 +1,11 @@
-<?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg height="512px" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><style type="text/css"><![CDATA[
-	.st0{fill-rule:evenodd;clip-rule:evenodd;}
-]]></style><g><g><path class="st0" d="M182.8,384V212.9h-54.9V384H182.8L182.8,384z M157.4,187c18.3,0,29.7-13.1,29.7-29.5    c-0.3-16.7-11.4-29.5-29.4-29.5c-18,0-29.7,12.8-29.7,29.5c0,16.4,11.4,29.5,29,29.5H157.4L157.4,187z"/><path class="st0" d="M320.6,209c-29.1,0-41.6,16.4-49.6,27.8V213h-55v171h55v-97.4c0-5,0.4-10,1.9-13.5c4-10,13-20.3,28.2-20.3    c19.9,0,27.9,15.3,27.9,37.7V384h55v-99.9C384,232.8,356.8,209,320.6,209z"/></g><path d="M417.2,64H96.8C79.3,64,64,76.6,64,93.9v321.1c0,17.4,15.3,32.9,32.8,32.9h320.3c17.6,0,30.8-15.6,30.8-32.9V93.9   C448,76.6,434.7,64,417.2,64z M414,416c-1.1,0-313.1,0-314.9,0s-3.1-1.4-3.1-3.1S96,99.1,96,98s1-2,2-2s315,0,316,0s2,1,2,2   c0,23.3,0,314.9,0,316C416,414.9,415.1,416,414,416z"/></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="793.7" height="793.7" version="1.1" viewBox="0 0 210 210" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(0,-87)" fill="#1681c5">
+  <path transform="matrix(.26458 0 0 .26458 0 87)" d="m25 18.701v223.95l223.95-223.95h-223.95zm750 526.05l-223.95 223.95h223.95v-223.95z" style="paint-order:fill markers stroke"/>
+  <g transform="matrix(24.932 0 0 24.932 892.07 -7285.5)">
+   <path d="m-32.827 298.04q0 0.28014-0.19394 0.47408-0.19035 0.19035-0.47049 0.19035-0.27655 0-0.47049-0.19394-0.19035-0.19394-0.19035-0.47049 0-0.27654 0.19035-0.46689 0.19394-0.19394 0.47049-0.19394t0.47049 0.19394q0.19394 0.19035 0.19394 0.46689z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+   <path d="m-32.903 302.39h-1.178v-3.3329h1.178z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+   <path d="m-28.919 302.39h-1.178v-1.688q0-0.44176-0.10056-0.58542-0.14725-0.2119-0.44176-0.2119-0.26936 0-0.45253 0.18317-0.16521 0.16521-0.16521 0.51718v1.785h-1.178v-3.3329h1.178v0.42021q0.20472-0.23704 0.37711-0.33401 0.28014-0.15803 0.70034-0.15803 0.53873 0 0.87633 0.29091 0.38429 0.33042 0.38429 0.99126z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+  </g>
+ </g>
+</svg>

@@ -38,6 +38,7 @@ h1{
     font-size: 1.5rem;
     color: #F5F5F5;
     padding: 0;
+    margin-bottom: 50;
 }
 h2{
     font-family: 'Karla', sans-serif;
@@ -51,11 +52,29 @@ h3{
     color: #364F6B;
     font-size: 1.5rem;
 }
+h4{
+    font-family: 'Karla', sans-serif;
+    color: #364F6B;
+    font-size: 1.3rem;
+}
 p{
     font-family: 'Karla', sans-serif; 
     color: #364F6B;  
     font-size: 1.2rem;
     line-height: 2;
+}
+li{
+    font-family: 'Karla', sans-serif; 
+    color: #364F6B;  
+    font-size: 1.2rem;
+    line-height:1.5;
+    list-style-position: inside;
+}
+.row-list-left{
+    margin-left: 200px;
+}
+.row-list-right{
+    margin-right: 200px;
 }
 .intro {
     width: 75%;
@@ -96,17 +115,20 @@ hr {
 }
 .top-cloud{
     position: absolute;
+    width: 10%;
     right: 300px;
     top: 20px;
 }
 .bottom-cloud{
     position: absolute;
+    width: 10%;
     left: 300px;
     bottom: 250px;
 }
-.mountain{
-    margin: 0;
+.hero{
+    margin: 100 0 0 0;
     padding: 0;
+    width: 35%;
     position: relative;
     top: 4px;
 }
@@ -121,24 +143,24 @@ hr {
 .skills, .contact-me{
     margin: 30px auto;
 }
-.skill-row-code{
-    width: 50%;
+.row-left{
+    width: 65%;
     margin: 30px auto ;
     text-align: left;
 }
-.skill-row-other{
-    width: 50%;
+.row-right{
+    width: 65%;
     margin: 30px auto;
     text-align: right;
 
 }
-.skill-code-img{
-    width: 25%;
+.row-left-img{
+    width: 15%;
     float: left;
     margin-right: 30px;
 }
-.skill-other-img{
-    width: 25%;
+.row-right-img{
+    width: 15%;
     float: right;
     margin-left: 30px;
 }
