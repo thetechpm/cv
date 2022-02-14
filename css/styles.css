@@ -68,8 +68,17 @@ li{
     color: #364F6B;  
     font-size: 1.2rem;
     line-height:1.5;
-    list-style-position: inside;
+    list-style: none;
 }
+ul li::before {
+    content: "\2022";
+    color:#3FC1C9;
+    font-weight: bold;
+    display: inline-block; 
+    width: 0;
+    margin-left: -1.7rem;
+    margin-right: 1.7rem
+  }
 .row-list-left{
     margin-left: 200px;
 }
