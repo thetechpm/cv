@@ -6,10 +6,10 @@ import Row from 'react-bootstrap/Row';
 function WorkItem(props) {
   return (
     <Row className="mb-5">
-        <Col xs={4} md={2}>
+        <Col xs={5} md={2} className="mt-2 mb-3">
             <a href={props.link}><img className="work-logo" src={props.logoSrc} alt={props.company} /></a>
         </Col>
-        <Col>
+        <Col xs={12} md={10}>
             <h3>{props.company}</h3>
             <h4>{props.title}</h4>
             <p><em>{props.timeperiod}</em></p>
