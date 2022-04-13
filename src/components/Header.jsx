@@ -37,7 +37,7 @@ function Header() {
           <SubTitle text="a CTO and co-founder" />
           <SubTitle text="a woman in STEM" />
           <Cloud type ="bottom-cloud d-none d-md-block" cloudColor={color} onColor={setRandomColor} />
-          <img className ="hero" src="media/path.png" alt="path" />
+          <img className ="hero" src="%PUBLIC_URL%/media/path.png" alt="path" />
       </Container>
     </div>
   );
