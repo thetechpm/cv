@@ -11,8 +11,8 @@ const work = [{
     id: "72be8e2c-86a6-4ac7-a79e-98feba04c8c8",
     company: "Research Lead",
     title: "Co-Founder, Chief Technical Officer",
-    timeperiod: "2021 - present",
-    link: "https://researchlead.com/",
+    timeperiod: "2021 - 2024",
+    link: "",
     logoSrc: "media/rl-color.png",
     details: [{primary:"Founded a crowdfunding platform for medical research", secondary:["Led product design from idea through release to market"]}, {primary: "Developed the full MERN stack for the platform and website", secondary:["Self-taught Express, Node, React, Mongoose, and Bootstrap"]}]
 }];

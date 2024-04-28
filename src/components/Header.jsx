@@ -33,9 +33,9 @@ function Header() {
       <Container fluid className="top-container">
           <Cloud type ="top-cloud" cloudColor={color} onColor={setRandomColor}  />
           <h1  style={{color:color}}>I'm Jenny Hunter</h1>
-          <SubTitle text="a senior product manager" />
+          <SubTitle text="a pepole manager" />
           <SubTitle text="a CTO and co-founder" />
-          <SubTitle text="a woman in STEM" />
+          <SubTitle text="a product manager" />
           <Cloud type ="bottom-cloud d-none d-md-block" cloudColor={color} onColor={setRandomColor} />
           <img className ="hero" src="media/path.png" alt="path" />
       </Container>
